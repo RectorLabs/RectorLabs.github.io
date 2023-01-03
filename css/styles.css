@@ -11,7 +11,7 @@
     display: block;
     margin-left: auto*2;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
   }
   /* Add a black background color to the top navigation */
 .topnav {
@@ -42,4 +42,25 @@
 }
 body {
   background-color: #333232;
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
 }
+.parallax1 {
+  /* The image used */
+  background-image: url("/logos/logo_transparent.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {text-align: center;}
