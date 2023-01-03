@@ -1,5 +1,6 @@
-
-img.resize {
-    width:100%; /* you can use % */
-    height: auto;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
